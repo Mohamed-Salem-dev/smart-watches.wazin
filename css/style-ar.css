@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+html {
+  direction: rtl;
+  text-align: right;
+  font-family: "Cairo", sans-serif !important;
+}
+body {
+  font-family: "Cairo", sans-serif !important;
+}
+.offset-2-mo {
+  margin-left: auto;
+  margin-right: 25%;
+}
+.offset-1-mo {
+  margin-left: auto;
+  margin-right: 8.33333333%;
+}
+
+.box-line {
+  right: 26%;
+  left: auto;
+}
+
+.box-img-header {
+  box-shadow: -30px 30px 0px var(--mainColor);
+}
+.box-img-header::after {
+  right: -2rem;
+  left: auto;
+}
+
+.box-arrow-left {
+  right: 10px;
+  left: auto;
+  transform: rotateY(180deg);
+}
+
+.box-Reviews-section .swiper-button-next {
+  right: auto;
+  left: 0;
+}
+.box-Reviews-section .swiper-button-prev {
+  left: 4rem;
+  right: auto;
+}
+
+.box-order-form .form-select {
+  background-position: left 0.75rem center;
+}
+.box-Questions-section .accordion-header .accordion-button::after {
+  margin-right: auto;
+  margin-left: 0;
+}
+@media screen and (max-width: 991px) {
+  .offset-2-mo {
+    margin-right: 0;
+  }
+  .offset-1-mo {
+    margin-right: 0;
+  }
+
+  .box-list-link-nav-1 {
+    left: -100%;
+    right: auto;
+  }
+
+  .box-list-link-nav-1.open {
+    left: 0;
+    right: auto;
+  }
+
+  .offset-2-mo {
+    margin-right: auto;
+  }
+}
